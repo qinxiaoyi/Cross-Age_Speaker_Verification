@@ -1,0 +1,3 @@
+trials filter=lfs diff=lfs merge=lfs -text
+vox1 filter=lfs diff=lfs merge=lfs -text
+vox2dev filter=lfs diff=lfs merge=lfs -text
