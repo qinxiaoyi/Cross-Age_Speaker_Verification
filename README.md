@@ -13,7 +13,7 @@ or
 Download Link: https://pan.baidu.com/s/1m3lDeAEt0lJj-CPHqM4e1Q 
 Passwd: qv90
 
-# Introduction
+# 0.Introduction
 
 In this paper, we adopt the face age estimation method to predict the speaker age value from the associated visual data, then label the audio recording with the estimated age. We construct multiple Cross-Age test sets on VoxCeleb (Vox-CA), which deliberately select the positive trials with large age-gap. Finally, we propose an age-decoupling adversarial learning (ADAL) to alleviate the negative effect of the age gap and reduce intra-class variance. 
 The main contribution of this paper is:
@@ -25,9 +25,9 @@ The main contribution of this paper is:
 <a href=" ">Paper arxiv </a>  |
 
 
-# Cross-age speaker verification task
-## Construction Detail
-
+# 1.Cross-age speaker verification task
+## 1.1 Construction Detail
+The construction pipelines adopt the following steps:
 <ol>
   <li> Gathering the face image from meta-data of VoxCeleb1 and VoxCeleb2</li>
   <li> Estimating the age of each face image. </li>
@@ -40,9 +40,9 @@ Faces from video -> Face Age Estimation module -> faces age -> age average -> au
 For the sake of clarity, the key stages are described in the following paragraphs:
 **Estimating and labeling age for audio**: We use the Dex to estimate the age for each face image, and the average age value of faces is used as the estimated age for the segment.
 **Forming positive/negative pairs**:
-First, the positive pairs must be the cross-age case. Second, all negative pairs are constructed within the same nationality and gender. Following the rules mentioned above, there are four VoxCA sets are constructed according to different age-gap categories:
-
-
+First, the positive pairs must be the cross-age case. 
+Second, all negative pairs are constructed within the same nationality and gender.
+Following the rules mentioned above, there are four VoxCA sets are constructed according to different age-gap categories:
 <ol>
   <li> Vox-CA5. The age gap of the positive pair is 5 years at least. The candidate speakers must possess more than 7 years of max age-gap data.</li>
   <li> Vox-CA10. The age gap of the positive pair is 10 years at least. The candidate speakers must possess more than 12 years of max age-gap data.</li>
@@ -50,14 +50,17 @@ First, the positive pairs must be the cross-age case. Second, all negative pairs
   <li> Vox-CA20. The age gap of the positive pair is 20 years at least. The candidate speakers must possess more than 22 years of max age-gap data. </li>
 </ol>
 
-The following table is the statistics of VoxCeleb test trials and our proposed trials. 
+## 1.2 Comparsion with Vox-E, Vox-H and Vox-CA
+In this part, we consider three cases of trial pairs.
+Case 1. Positive pair within intra-segment. The pair audios are selected from the same video segment.
+Case 2. Positive pair within the cross-age.
+Case 3. Negative pair within the same nationality and gender.
 
+The following table is the statistics of VoxCeleb test trials and our proposed trials. 
 ![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/blob/main/imgs/table2.jpg)
 
+The following is the results on different test set based on the ResNet-GSP-ArcFace model. The our-E and our-H is our implemented test set following the VoxCeleb rules.
 
-
-
-The following is the results on different test set based on the ResNet-GSP-ArcFace model.
 |  **Test set**    | **Construct**             | **EER[%]**  | **mDCF0.01** | 
 |  ----        | ----                  | ----    | ----     |
 | **Vox official** |                       |         |          |
@@ -78,3 +81,10 @@ The following is the results on different test set based on the ResNet-GSP-ArcFa
 | Vox-CA10     | age & nation & gender | 4.974%  | 0.370    |
 | Vox-CA15     | age & nation & gender | 8.028%  | 0.481    |
 | Vox-CA20     | age & nation & gender | 10.419% | 0.646    |
+
+The Vox-CA provides new benchmarks for crossage matching scenarios and hard tasks.
+
+
+# 2. Learning Age-invariant Speaker Embeddings
+
+
