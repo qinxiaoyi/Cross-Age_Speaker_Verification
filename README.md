@@ -10,8 +10,8 @@ This repository contains the trial files and VoxCeleb1&2 age information of the 
 
 or
 
-Download Link: https://pan.baidu.com/s/1MIJ19ULFNzUjyNpgFbwynw 
-Passwd: d672
+Download Link: https://pan.baidu.com/s/1m3lDeAEt0lJj-CPHqM4e1Q 
+Passwd: qv90
 
 # Introduction
 
