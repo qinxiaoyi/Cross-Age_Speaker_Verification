@@ -1,12 +1,17 @@
 # Cross-Age_Speaker_Verification
 
-This repository contains the trial files and VoxCeleb1&2 age information of the paper "Cross-Age Speaker Verification: Learning Age-Invariant Speaker Embeddings" .
+This repository contains the trial files and VoxCeleb1&2 age information of the paper "Cross-Age Speaker Verification: Learning Age-Invariant Speaker Embeddings". Following is the download source. We provide Google Drive Link and Baidu Pan resource. 
 
-|  Files | Download Link |
+|  Files | Download Link | 
 |  ----  | ---- |
 | Trial files | <a href="https://drive.google.com/drive/folders/1caO11O7xqjpa8KNLrT8BWx_V6IhdmQlQ?usp=sharing">Google Drive Link </a> |
 | Vox1 Age info  |  <a href="https://drive.google.com/drive/folders/1x-FipNnDtVd6CLy2CblViphyODj3rFS4?usp=sharing">Google Drive Link </a>  |
 | Vox1dev Age info |  <a href="https://drive.google.com/drive/folders/1aSYbdoWp9Pvnbd4y6IRneykSlFneat_I?usp=sharing">Google Drive Link </a>  |
+
+or
+
+Download Link: https://pan.baidu.com/s/1MIJ19ULFNzUjyNpgFbwynw 
+Passwd: d672
 
 # Introduction
 
