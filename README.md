@@ -4,9 +4,9 @@ This repository contains the trial files and VoxCeleb1&2 age information of the 
 
 |  Files | Download Link | 
 |  ----  | ---- |
-| Trial files | <a href="https://drive.google.com/drive/folders/1caO11O7xqjpa8KNLrT8BWx_V6IhdmQlQ?usp=sharing">Google Drive Link </a> |
-| Vox1 Age info  |  <a href="https://drive.google.com/drive/folders/1x-FipNnDtVd6CLy2CblViphyODj3rFS4?usp=sharing">Google Drive Link </a>  |
-| Vox2dev Age info |  <a href="https://drive.google.com/drive/folders/1aSYbdoWp9Pvnbd4y6IRneykSlFneat_I?usp=sharing">Google Drive Link </a>  |
+| Trial files | <a href="https://drive.google.com/drive/folders/1caO11O7xqjpa8KNLrT8BWx_V6IhdmQlQ?usp=sharing">Google Drive </a> |
+| Vox1 Age info  |  <a href="https://drive.google.com/drive/folders/1x-FipNnDtVd6CLy2CblViphyODj3rFS4?usp=sharing">Google Drive </a>  |
+| Vox2dev Age info |  <a href="https://drive.google.com/drive/folders/1aSYbdoWp9Pvnbd4y6IRneykSlFneat_I?usp=sharing">Google Drive </a>  |
 
 or
 
@@ -89,3 +89,4 @@ The Vox-CA provides new benchmarks for crossage matching scenarios and hard task
 
 ![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/blob/main/imgs/network_ADAL.png)
 
+![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/blob/main/imgs/comparison.png)
