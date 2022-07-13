@@ -89,7 +89,6 @@ The Vox-CA provides new benchmarks for crossage matching scenarios and hard task
 The following is the structure ADAL module.
 ![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/blob/main/imgs/network_ADAL.png)
 
-
 |  **Model** | **Vox-E** | **Vox-H**  | **Only-CA5** |**Only-CA10** |**Only-CA15** |**Only-CA20** | **Vox-CA5** |**Vox-CA10** |**Vox-CA15** |**Vox-CA20** | 
 |  ----      | ----      | ----       | ----         | ----         | ----         | ----         | ----        | ----        | ----        | ----     |
 | ResNet34-Softmax | 2.798% | 4.806% | 4.310% | 6.004% | 8.019% | 9.308% | 7.366% | 9.125% | 12.405% | 14.888% |
