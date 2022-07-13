@@ -1,4 +1,4 @@
-# Cross-Age_Speaker_Verification
+# Cross-Age Speaker Verification
 
 This repository contains the trial files and VoxCeleb1&2 age information of the paper "Cross-Age Speaker Verification: Learning Age-Invariant Speaker Embeddings". Following is the download source. We provide Google Drive Link and Baidu Pan resource. 
 
@@ -87,4 +87,5 @@ The Vox-CA provides new benchmarks for crossage matching scenarios and hard task
 
 # 2. Learning Age-invariant Speaker Embeddings
 
+![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/blob/main/imgs/network_ADAL.png)
 
