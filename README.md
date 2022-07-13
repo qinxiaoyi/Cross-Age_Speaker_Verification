@@ -86,7 +86,19 @@ The Vox-CA provides new benchmarks for crossage matching scenarios and hard task
 
 
 # 2. Learning Age-invariant Speaker Embeddings
-
+The following is the structure ADAL module.
 ![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/blob/main/imgs/network_ADAL.png)
+
+
+|  **Model** | **Vox-E** | **Vox-H**  | **Only-CA5** |**Only-CA10** |**Only-CA15** |**Only-CA20** | **Vox-CA5** |**Vox-CA10** |**Vox-CA15** |**Vox-CA20** | 
+|  ----      | ----      | ----       | ----         | ----         | ----         | ----         | ----        | ----        | ----        | ----     |
+| ResNet34-Softmax | 2.798% | 4.806% | 4.310% | 6.004% | 8.019% | 9.308% | 7.366% | 9.125% | 12.405% | 14.888% |
+| ResNet34-Arcface | 1.094% | 1.939% | 1.935% | 3.437% | 5.927% | 8.185% | 3.407% | 4.974% | 8.028% | 10.419% |
+| + GRL            | 1.122% | 1.934% | 2.021% | 3.579% | 6.036% | 8.566% | 3.405% | 4.949% | 8.017% | 10.610% |
+| + Age Residual   | 1.121% | 1.960% | 2.040% | 3.536% | 5.871% | 7.864% | 3.499% | 5.078% | 8.039% | 10.229% |
+| + ARE (ours)     | 1.108% | 1.951% | 1.980% | 3.345% | 5.719% | 7.803% | 3.431% | 4.814% | 7.786% | 9.911% |
+| + ADAL (ours)    | 1.121% | 1.974% | 1.991% | 3.330% | 5.540% | 7.442% | 3.441% | 4.822% | 7.515% | 9.519% |
+
+The following are the other comparison system implemented.
 
 ![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/blob/main/imgs/comparison.png)
