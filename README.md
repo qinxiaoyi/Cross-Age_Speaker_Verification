@@ -44,7 +44,7 @@ First, the positive pairs must be the cross-age case. Second, all negative pairs
 
 The following table is the statistics of VoxCeleb test trials and our proposed trials. 
 
-![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/imgs/table2.jpg)
+![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/tree/main/imgs/table2.jpg)
 
 
 
