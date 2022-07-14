@@ -22,7 +22,7 @@ The main contribution of this paper is:
   <li>Proposed an age-decoupling adversarial learning mothod </li>
 </ol>
 
-<a href=" ">Paper arxiv </a>  |
+<a href="https://arxiv.org/abs/2207.05929">Paper arxiv </a>  |
 
 
 # 1.Cross-age speaker verification task
