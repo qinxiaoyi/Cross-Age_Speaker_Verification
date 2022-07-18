@@ -16,7 +16,7 @@ Passwd: qv90
 
 # 0.Introduction
 
-In this paper, we consider the age impact for speaker verification. We adopt the face age estimation method to predict the speaker age value from the associated visual data, then label the audio recording with the estimated age. We construct multiple Cross-Age test sets on VoxCeleb (Vox-CA), which deliberately select the positive trials with large age-gap. Finally, we propose an age-decoupling adversarial learning (ADAL) to alleviate the negative effect of the age gap and reduce intra-class variance. 
+In this paper, we consider the **age impact for speaker verification systems**. We adopt the face age estimation method to predict the speaker age value from the associated visual data, then label the audio recording with the estimated age. We construct multiple Cross-Age test sets on VoxCeleb (Vox-CA), which deliberately select the positive trials with large age-gap. Finally, we propose an age-decoupling adversarial learning (ADAL) to alleviate the negative effect of the age gap and reduce intra-class variance. 
 The main contribution of this paper is:
 <ol>
   <li>Propose cross-age speaker verification task</li>
