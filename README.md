@@ -1,5 +1,5 @@
 # Cross-Age Speaker Verification
-
+![image](https://github.com/qinxiaoyi/Cross-Age_Speaker_Verification/blob/main/imgs/voxca.png)
 This repository contains the trial files and VoxCeleb1&2 age information of the paper "Cross-Age Speaker Verification: Learning Age-Invariant Speaker Embeddings". Following is the download source. We provide Google Drive Link and Baidu Pan resource. 
 
 |  Files | Download Link | 
